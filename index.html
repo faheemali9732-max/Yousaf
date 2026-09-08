@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Muhammad Yousaf, a BS Information Technology student interested in web development, programming, databases, UI/UX design, software development, and modern technology.">
+  <meta name="keywords" content="Muhammad Yousaf, BS IT, Information Technology, Portfolio, Web Development, Python, MySQL, HTML5, CSS3, Pakistan">
+  <meta name="author" content="Muhammad Yousaf">
+  <meta name="theme-color" content="#0F172A">
+  <title>Muhammad Yousaf | BS Information Technology Student</title>
+
+  <!-- Preconnect & Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================
+       HEADER / NAVIGATION BAR
+       ========================================================= -->
+  <header class="site-header" id="top">
+    <div class="container header-container">
+      <a href="#top" class="brand-logo" aria-label="Muhammad Yousaf Portfolio Home">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-text">MY<span class="logo-dot">.</span>IT</span>
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <!-- CSS-Only Mobile Navigation Toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </label>
+
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link nav-btn-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================
+         1. HERO SECTION
+         ========================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>BS Information Technology Undergraduate</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight-text">Muhammad Yousaf</span>
+          </h1>
+          
+          <h2 class="hero-subtitle">
+            <span class="tech-prompt">$</span> BS Information Technology Student
+          </h2>
+          
+          <p class="hero-description">
+            A passionate Information Technology student focused on modern programming, full-stack web development, relational databases, software development, algorithmic problem solving, and emerging technologies. Committed to building robust, efficient, and scalable digital solutions.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Work</span>
+              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+            </a>
+          </div>
+
+          <!-- Academic Quick Highlights -->
+          <div class="hero-stats">
+            <div class="stat-box">
+              <span class="stat-number">4+</span>
+              <span class="stat-label">Core Projects</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-box">
+              <span class="stat-number">BS IT</span>
+              <span class="stat-label">Academic Track</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-box">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Pure CSS &amp; HTML</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="image-wrapper">
+            <div class="image-glow"></div>
+            <div class="image-border-frame">
+              <img src="images/profile.jpg" alt="Muhammad Yousaf - BS Information Technology Student" class="hero-profile-img" onerror="this.onerror=null; this.src='images/profile.svg';">
+            </div>
+            <div class="tech-tag tag-top">
+              <span class="tag-code">&lt;IT_Major&gt;</span>
+            </div>
+            <div class="tech-tag tag-bottom">
+              <span class="tag-status">●</span> Available for Projects
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         2. ABOUT ME SECTION
+         ========================================================= -->
+    <section class="about-section" id="about">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">// DISCOVER</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+          <p class="section-lead">Dedicated Information Technology undergraduate with a drive for structured coding and analytical problem solving.</p>
+        </div>
+
+        <div class="about-grid">
+          
+          <div class="about-card-main">
+            <h3 class="about-subheading">Building Foundations in Modern Computing</h3>
+            <p class="about-text">
+              I am <strong>Muhammad Yousaf</strong>, currently pursuing my Bachelor of Science in Information Technology (BS IT). My academic and personal pursuit in computing is geared toward understanding how enterprise software systems, databases, and network architectures operate together seamlessly.
+            </p>
+            <p class="about-text">
+              I am deeply interested in exploring diverse realms of technology, developing scalable web applications, and writing clean, maintainable code. My technical curiosity drives me to constantly adopt best industry practices and learn modern frameworks.
+            </p>
+
+            <h4 class="interests-heading">Core Areas of Interest:</h4>
+            <div class="interests-grid">
+              <span class="interest-pill"><span class="pill-dot">▹</span> Web Development</span>
+              <span class="interest-pill"><span class="pill-dot">▹</span> Programming</span>
+              <span class="interest-pill"><span class="pill-dot">▹</span> Database Management</span>
+              <span class="interest-pill"><span class="pill-dot">▹</span> Python Development</span>
+              <span class="interest-pill"><span class="pill-dot">▹</span> Software Development</span>
+              <span class="interest-pill"><span class="pill-dot">▹</span> UI/UX Design</span>
+              <span class="interest-pill"><span class="pill-dot">▹</span> Problem Solving</span>
+              <span class="interest-pill"><span class="pill-dot">▹</span> Technology</span>
+              <span class="interest-pill"><span class="pill-dot">▹</span> Digital Skills</span>
+              <span class="interest-pill"><span class="pill-dot">▹</span> Learning New IT Technologies</span>
+            </div>
+          </div>
+
+          <!-- 6 Professional Qualities Cards -->
+          <div class="qualities-container">
+            <h3 class="qualities-title">Professional Attributes</h3>
+            
+            <div class="qualities-grid">
+              
+              <div class="quality-card">
+                <div class="quality-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                </div>
+                <h4 class="quality-name">Creative</h4>
+                <p class="quality-desc">Approaching problems with inventive ideas and clean user-focused architectures.</p>
+              </div>
+
+              <div class="quality-card">
+                <div class="quality-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                </div>
+                <h4 class="quality-name">Hardworking</h4>
+                <p class="quality-desc">Dedicated to delivering high-quality lab assignments and persistent project refinement.</p>
+              </div>
+
+              <div class="quality-card">
+                <div class="quality-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                </div>
+                <h4 class="quality-name">Quick Learner</h4>
+                <p class="quality-desc">Rapidly mastering new programming paradigms, tools, and technical concepts.</p>
+              </div>
+
+              <div class="quality-card">
+                <div class="quality-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="m4.93 4.93 4.24 4.24"></path><path d="m14.83 9.17 4.24-4.24"></path><path d="m14.83 14.83 4.24 4.24"></path><path d="m9.17 14.83-4.24 4.24"></path><circle cx="12" cy="12" r="4"></circle></svg>
+                </div>
+                <h4 class="quality-name">Problem Solver</h4>
+                <p class="quality-desc">Breaking down complex algorithms into logical, structured, and manageable steps.</p>
+              </div>
+
+              <div class="quality-card">
+                <div class="quality-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                </div>
+                <h4 class="quality-name">Technology Enthusiast</h4>
+                <p class="quality-desc">Continuously updated with emerging IT innovations, AI tools, and development standards.</p>
+              </div>
+
+              <div class="quality-card">
+                <div class="quality-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                </div>
+                <h4 class="quality-name">Team Player</h4>
+                <p class="quality-desc">Collaborating effectively in academic study groups and technical pair programming.</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         3. SKILLS SECTION
+         ========================================================= -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">// COMPETENCIES</span>
+          <h2 class="section-title">Technical &amp; Professional Skills</h2>
+          <div class="section-line"></div>
+          <p class="section-lead">A comprehensive toolkit spanning software programming, database design, and interpersonal professional capabilities.</p>
+        </div>
+
+        <!-- Technical Category -->
+        <div class="skills-group">
+          <h3 class="skills-group-title">
+            <span class="group-icon">#</span> Core Technical Stack
+          </h3>
+          
+          <div class="skills-grid">
+            
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-badge-icon">HTML5</div>
+                <span class="skill-level">90%</span>
+              </div>
+              <h4 class="skill-title">HTML5</h4>
+              <p class="skill-desc">Semantic structure, modern markup, web accessibility, and clean document outlines.</p>
+              <div class="progress-bar-bg" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-badge-icon">CSS3</div>
+                <span class="skill-level">85%</span>
+              </div>
+              <h4 class="skill-title">CSS3</h4>
+              <p class="skill-desc">Flexbox, CSS Grid, media queries, smooth animations, and custom CSS styling.</p>
+              <div class="progress-bar-bg" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 85%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-badge-icon">JS</div>
+                <span class="skill-level">75%</span>
+              </div>
+              <h4 class="skill-title">JavaScript</h4>
+              <p class="skill-desc">DOM manipulation, ES6+ syntax, client-side validation, and interactive logic.</p>
+              <div class="progress-bar-bg" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 75%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-badge-icon">PY</div>
+                <span class="skill-level">80%</span>
+              </div>
+              <h4 class="skill-title">Python</h4>
+              <p class="skill-desc">Object-oriented programming, data structures, scripting, and backend development.</p>
+              <div class="progress-bar-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-badge-icon">FLASK</div>
+                <span class="skill-level">70%</span>
+              </div>
+              <h4 class="skill-title">Flask</h4>
+              <p class="skill-desc">Lightweight Python web framework, REST routing, templates, and backend APIs.</p>
+              <div class="progress-bar-bg" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 70%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-badge-icon">SQL</div>
+                <span class="skill-level">80%</span>
+              </div>
+              <h4 class="skill-title">MySQL</h4>
+              <p class="skill-desc">Relational database schemas, CRUD queries, indexing, joins, and data normalization.</p>
+              <div class="progress-bar-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-badge-icon">GIT</div>
+                <span class="skill-level">75%</span>
+              </div>
+              <h4 class="skill-title">Git &amp; GitHub</h4>
+              <p class="skill-desc">Version control, repository management, branch workflows, and code collaboration.</p>
+              <div class="progress-bar-bg" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 75%;"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Professional & IT Skills Category -->
+        <div class="skills-group">
+          <h3 class="skills-group-title">
+            <span class="group-icon">#</span> Professional &amp; Applied IT Skills
+          </h3>
+          
+          <div class="skills-grid">
+            
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-badge-icon">UI/UX</div>
+                <span class="skill-level">80%</span>
+              </div>
+              <h4 class="skill-title">UI/UX Design</h4>
+              <p class="skill-desc">Wireframing, user interface hierarchies, design accessibility, and dark/light contrast.</p>
+              <div class="progress-bar-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-badge-icon">RWD</div>
+                <span class="skill-level">90%</span>
+              </div>
+              <h4 class="skill-title">Responsive Web Design</h4>
+              <p class="skill-desc">Mobile-first layouts adapting fluidly to smartphones, tablets, laptops, and desktops.</p>
+              <div class="progress-bar-bg" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-badge-icon">DBMS</div>
+                <span class="skill-level">82%</span>
+              </div>
+              <h4 class="skill-title">Database Management</h4>
+              <p class="skill-desc">Entity-relationship diagrams, transactions, data integrity, and backup principles.</p>
+              <div class="progress-bar-bg" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 82%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-badge-icon">LOGIC</div>
+                <span class="skill-level">85%</span>
+              </div>
+              <h4 class="skill-title">Problem Solving</h4>
+              <p class="skill-desc">Algorithmic thinking, debugging complex runtime issues, and optimizing computational flow.</p>
+              <div class="progress-bar-bg" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 85%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-badge-icon">DESIGN</div>
+                <span class="skill-level">70%</span>
+              </div>
+              <h4 class="skill-title">Basic Graphic Design</h4>
+              <p class="skill-desc">Digital assets, tech mockups, layout proportioning, and visual branding assets.</p>
+              <div class="progress-bar-bg" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 70%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-badge-icon">COMM</div>
+                <span class="skill-level">85%</span>
+              </div>
+              <h4 class="skill-title">Presentation Skills</h4>
+              <p class="skill-desc">Delivering clear academic project presentations, architecture diagrams, and live demos.</p>
+              <div class="progress-bar-bg" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 85%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-badge-icon">SYNC</div>
+                <span class="skill-level">88%</span>
+              </div>
+              <h4 class="skill-title">Communication Skills</h4>
+              <p class="skill-desc">Clear technical writing, documented requirements, and respectful team communication.</p>
+              <div class="progress-bar-bg" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 88%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-badge-icon">OFFICE</div>
+                <span class="skill-level">90%</span>
+              </div>
+              <h4 class="skill-title">Microsoft Office</h4>
+              <p class="skill-desc">Word technical documentation, Excel analytical formulas, and PowerPoint slides.</p>
+              <div class="progress-bar-bg" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 90%;"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         4. EDUCATION SECTION
+         ========================================================= -->
+    <section class="education-section" id="education">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">// ACADEMICS</span>
+          <h2 class="section-title">Education &amp; Background</h2>
+          <div class="section-line"></div>
+          <p class="section-lead">Academic qualifications and structured learning in Information Technology.</p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-item">
+            
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-line"></div>
+            </div>
+
+            <div class="timeline-card">
+              <div class="card-meta">
+                <span class="degree-badge">Bachelor of Science</span>
+                <span class="year-badge">Undergraduate Degree</span>
+              </div>
+              
+              <h3 class="degree-title">BS Information Technology</h3>
+              <p class="student-info">Student: <strong>Muhammad Yousaf</strong> | Location: <strong>Pakistan</strong></p>
+              
+              <p class="degree-description">
+                Muhammad Yousaf is actively studying Information Technology, gaining both theoretical grounding and hands-on laboratory experience. The degree program is structured to develop industry-ready skills across critical areas of contemporary computing:
+              </p>
+
+              <div class="academic-focus-grid">
+                <div class="focus-item">
+                  <span class="focus-icon">💻</span>
+                  <div>
+                    <h4 class="focus-title">Programming</h4>
+                    <p class="focus-desc">Algorithmic structures, OOP fundamentals, and scripting using Python &amp; JavaScript.</p>
+                  </div>
+                </div>
+
+                <div class="focus-item">
+                  <span class="focus-icon">🗄️</span>
+                  <div>
+                    <h4 class="focus-title">Databases</h4>
+                    <p class="focus-desc">Relational database systems, SQL query optimization, and normalization techniques.</p>
+                  </div>
+                </div>
+
+                <div class="focus-item">
+                  <span class="focus-icon">🌐</span>
+                  <div>
+                    <h4 class="focus-title">Web Development</h4>
+                    <p class="focus-desc">Semantic HTML5 architecture, CSS3 responsive interfaces, and full-stack integration.</p>
+                  </div>
+                </div>
+
+                <div class="focus-item">
+                  <span class="focus-icon">⚙️</span>
+                  <div>
+                    <h4 class="focus-title">Software Development</h4>
+                    <p class="focus-desc">Software development lifecycle (SDLC), version control workflows, and code testing.</p>
+                  </div>
+                </div>
+
+                <div class="focus-item full-width-focus">
+                  <span class="focus-icon">🚀</span>
+                  <div>
+                    <h4 class="focus-title">Modern Technology</h4>
+                    <p class="focus-desc">Cloud infrastructure, system administration, security fundamentals, and digital solutions.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. PROJECTS SECTION
+         ========================================================= -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">// PORTFOLIO</span>
+          <h2 class="section-title">Featured IT Projects</h2>
+          <div class="section-line"></div>
+          <p class="section-lead">Hands-on academic and technical projects demonstrating code craftsmanship and problem solving.</p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-tech-bar">
+                <span class="tech-icon-symbol">&lt;/&gt;</span>
+                <span class="project-number">PROJECT 01</span>
+              </div>
+              <h3 class="project-name">Personal Portfolio Website</h3>
+            </div>
+            
+            <div class="project-body">
+              <p class="project-description">
+                A responsive personal portfolio website created to showcase skills, education, projects, and contact information with clean layout and seamless device compatibility.
+              </p>
+              
+              <div class="project-tech-tags">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">Responsive</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <a href="#" class="btn btn-outline" aria-label="View Personal Portfolio Website Project">
+                <span>View Project</span>
+                <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-tech-bar">
+                <span class="tech-icon-symbol">&lt;/&gt;</span>
+                <span class="project-number">PROJECT 02</span>
+              </div>
+              <h3 class="project-name">Student Management System</h3>
+            </div>
+            
+            <div class="project-body">
+              <p class="project-description">
+                A simple student management project designed to manage student information and academic records efficiently with clean input handling and data processing.
+              </p>
+              
+              <div class="project-tech-tags">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Python</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <a href="#" class="btn btn-outline" aria-label="View Student Management System Project">
+                <span>View Project</span>
+                <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-tech-bar">
+                <span class="tech-icon-symbol">&lt;/&gt;</span>
+                <span class="project-number">PROJECT 03</span>
+              </div>
+              <h3 class="project-name">Library Management System</h3>
+            </div>
+            
+            <div class="project-body">
+              <p class="project-description">
+                A basic database-based library management project for managing books, students, and borrowing records using SQL relational database modeling.
+              </p>
+              
+              <div class="project-tech-tags">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">MySQL</span>
+                <span class="tech-badge">Database</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <a href="#" class="btn btn-outline" aria-label="View Library Management System Project">
+                <span>View Project</span>
+                <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-tech-bar">
+                <span class="tech-icon-symbol">&lt;/&gt;</span>
+                <span class="project-number">PROJECT 04</span>
+              </div>
+              <h3 class="project-name">Responsive Landing Page</h3>
+            </div>
+            
+            <div class="project-body">
+              <p class="project-description">
+                A modern responsive webpage created to practice professional UI/UX, layouts, typography, fluid breakpoints, and high-performance frontend styling.
+              </p>
+              
+              <div class="project-tech-tags">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">JavaScript</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <a href="#" class="btn btn-outline" aria-label="View Responsive Landing Page Project">
+                <span>View Project</span>
+                <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         6. CONTACT SECTION
+         ========================================================= -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">// GET IN TOUCH</span>
+          <h2 class="section-title">Contact Me</h2>
+          <div class="section-line"></div>
+          <p class="section-lead">Have a question or want to collaborate on an academic IT project? Feel free to reach out directly.</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info Cards -->
+          <div class="contact-info-panel">
+            <h3 class="contact-panel-title">Direct Information</h3>
+            <p class="contact-panel-desc">You can reach out through any of the following channels. I respond actively to academic and technical inquiries.</p>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              </div>
+              <div class="info-details">
+                <span class="info-label">Full Name</span>
+                <span class="info-val">Muhammad Yousaf</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+              </div>
+              <div class="info-details">
+                <span class="info-label">Email Address</span>
+                <a href="mailto:yousafkaliah@gmail.com" class="info-link">yousafkaliah@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="info-details">
+                <span class="info-label">Phone / WhatsApp</span>
+                <a href="tel:03126232757" class="info-link">03126232757</a>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="info-details">
+                <span class="info-label">Location</span>
+                <span class="info-val">Pakistan</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-panel">
+            <h3 class="contact-panel-title">Send a Message</h3>
+            
+            <form class="contact-form" action="#" method="POST" onsubmit="return false;">
+              
+              <div class="form-group">
+                <label for="fullname" class="form-label">Full Name <span class="required">*</span></label>
+                <input type="text" id="fullname" name="fullname" class="form-input" placeholder="e.g. John Doe" required autocomplete="name">
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address <span class="required">*</span></label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="e.g. johndoe@example.com" required autocomplete="email">
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message <span class="required">*</span></label>
+                <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                <span>Submit Message</span>
+                <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       7. FOOTER
+       ========================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#top" class="brand-logo footer-logo" aria-label="Back to top">
+            <span class="logo-bracket">&lt;</span>
+            <span class="logo-text">Muhammad Yousaf</span>
+            <span class="logo-bracket">/&gt;</span>
+          </a>
+          <p class="footer-role">BS Information Technology Student</p>
+          <p class="footer-tagline">Building clean, efficient, and accessible web solutions with modern computer science principles.</p>
+        </div>
+
+        <div class="footer-nav">
+          <h4 class="footer-col-title">Quick Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social-wrapper">
+          <h4 class="footer-col-title">Connect &amp; Social</h4>
+          <div class="social-links">
+            
+            <a href="#" class="social-btn" aria-label="GitHub Profile" title="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              <span>GitHub</span>
+            </a>
+
+            <a href="#" class="social-btn" aria-label="LinkedIn Profile" title="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+
+            <a href="#" class="social-btn" aria-label="Facebook Profile" title="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              <span>Facebook</span>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; 2026 <strong>Muhammad Yousaf</strong>. All Rights Reserved.
+        </p>
+        <p class="footer-academic-note">
+          BS Information Technology | Lab 1 Portfolio Assignment
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
